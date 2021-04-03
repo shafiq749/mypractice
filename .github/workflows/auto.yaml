@@ -35,4 +35,4 @@ jobs:
         run: npm install -g surge
         
       - name: deploying on surge
-        run: surge ./http://my_practice.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
+        run: surge ./my_practice.surge.sh --token ${{secrets.SURGE_TOKEN}}
