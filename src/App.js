@@ -32,7 +32,7 @@ function App() {
       {state.count}
       <Header />
       <Button onClick={()=> dispatch({type:"decrement"})}>Button1</Button>
-      <Button primary onClick={()=> dispatch({type:"increment"})}>Button2</Button>
+      <Button primary onClick={()=> dispatch({type:"increment"})}>Button3</Button>
     </div>
   )
 }
